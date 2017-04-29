@@ -1,0 +1,14 @@
+{
+  "name": "pkg_mgr_challenge",
+  "version": "1.0.0",
+  "main": "main.js",
+  "repository": "git@github.com:parris/pkg_mgr_challenge.git",
+  "author": "Parris Khachi <parris@letswoosh.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0"
+  },
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
+}
