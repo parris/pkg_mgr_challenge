@@ -22,7 +22,7 @@ input.split('\n').forEach((line) => {
             break;
         case 'remove':
             try {
-                installation = packageManager[command](installation, graph, args.shift());
+                installation = packageManager[command](installation, graph, args[0]);
                 console.log(`Removing ${args[0]}`);
             } catch(e) {
                 console.log(`${args[0]} is still needed.`);
